@@ -42,7 +42,7 @@ Publish_CV()
 
 def Publish_Composite_CV():
     COUNTER=0
-    contentviews = ['NonProd', 'Prod', 'QA', 'Dev', 'Test']
+    contentviews = ['CompositeCV1', 'CompositeCV2', 'CompositeCV3', 'CompositeCV4', 'CompositeCV5']
     LEN = len(contentviews)
     while COUNTER < LEN:
      APIURL = "/katello/api/content_views/"
